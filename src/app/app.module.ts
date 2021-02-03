@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DaySelectorComponent } from './day-selector/day-selector.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DaySelectorComponent
   ],
   imports: [
     BrowserModule,

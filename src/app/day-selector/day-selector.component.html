@@ -1,0 +1,5 @@
+<div class="container">
+    <div *ngFor="let day of weekDay" class="week_day" [ngClass]="day.id === today ? 'selected': ''">
+        {{day.name}}
+    </div>
+</div>
